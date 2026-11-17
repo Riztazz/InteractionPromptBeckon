@@ -1,6 +1,7 @@
 # PromptBeckon
 
 Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or in the world.
+Bring your own widget, driver, scorer or presenter type of plugin, with sane defaults!
 
 ![PromptBeckon prompts on a chest, a drawer, a door and a machine](Media/promptbeckon-screen.gif)
 
