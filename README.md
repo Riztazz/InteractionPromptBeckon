@@ -1,6 +1,7 @@
 # PromptBeckon
 
-Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or in the world.
+Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or in the world.\
+**[Setup guide](Docs/Setup.md)** It covers the editor and C++ parts.
 
 ![PromptBeckon prompts on a chest, a drawer, a door and a machine](Media/promptbeckon-screen.gif)
 
@@ -12,8 +13,6 @@ Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or 
 4. On the target actor, pass a sphere or box to `ConfigShape` and attach a `PromptBeckonPointComponent` to it.
    Implement `Prompt Beckon Point Provider` to return the point.
 5. Give the point a `PromptBeckonDefinition` asset and bind `OnInteracted`.
-
-A more detailed documentations and a demo are coming soon. Sorry. In the mean-time, feel free to file an issue if you are struggling.
 
 ## Where to look
 
@@ -44,3 +43,13 @@ instant press, `IsInteracting()` is already false: the press is over.
 
 **Endless loops stop at 32 steps.** An `OnInteracted` that always presses again is one example. At 32 steps the
 press is refused and an error is logged. Other event loops get one warning at 32 steps, and all events still go out.
+
+## Author
+
+Made by Cezary Stanowski, Unreal Engine/C++ developer.
+**I am available for hire.** Reach me on any of these:
+
+- [LinkedIn](https://www.linkedin.com/in/cezary-stanowski/)
+- [X](https://x.com/RiztazzDev)
+- [Bluesky](https://bsky.app/profile/riztazz.bsky.social)
+- [Portfolio](https://riztazz.github.io/)
