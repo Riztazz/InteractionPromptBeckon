@@ -1,7 +1,6 @@
 # PromptBeckon
 
 Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or in the world.
-Bring your own widget, driver, scorer or presenter type of plugin, with sane defaults!
 
 ![PromptBeckon prompts on a chest, a drawer, a door and a machine](Media/promptbeckon-screen.gif)
 
@@ -13,6 +12,8 @@ Bring your own widget, driver, scorer or presenter type of plugin, with sane def
 4. On the target actor, pass a sphere or box to `ConfigShape` and attach a `PromptBeckonPointComponent` to it.
    Implement `Prompt Beckon Point Provider` to return the point.
 5. Give the point a `PromptBeckonDefinition` asset and bind `OnInteracted`.
+
+A more detailed documentations and a demo are coming soon. Sorry. In the mean-time, feel free to file an issue if you are struggling.
 
 ## Where to look
 
