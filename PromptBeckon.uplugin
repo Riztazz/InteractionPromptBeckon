@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.2.0",
+	"FriendlyName": "Prompt Beckon",
+	"Description": "World-space interaction prompts for one local player: an interactor detects points by their attached shapes, focuses the best one with a scorer, shows its prompt through a presenter, and runs an instant, hold or mash interaction. It replicates nothing and knows nothing about the game it runs in.",
+	"Category": "Gameplay",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "PromptBeckon",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "PromptBeckonEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
