@@ -1,7 +1,9 @@
 # PromptBeckon
 
 Interaction prompts for Unreal Engine 5.8: instant, hold and mash, on screen or in the world.\
-**[Setup guide](Docs/Setup.md)** It covers the editor and C++ parts.
+**[Setup guide](Docs/Setup.md).** It covers the editor and C++ parts.
+
+Example that use a very basic widget, a real game brings its own.
 
 ![PromptBeckon prompts on a chest, a drawer, a door and a machine](Media/promptbeckon-screen.gif)
 
